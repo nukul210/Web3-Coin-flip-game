@@ -7,23 +7,17 @@ export function Header() {
   return (
     <div>
       <div className="header-banner">
-        Play this game on Arbitrum on telegram{" "}
-        <a href="https://t.me/PsychoCasinoBot" target="_blank" rel="noreferrer">
-          here
-        </a>
+        Flip the coin game{" "}
       </div>
 
       <header className="header-container">
         <img src={Logo} alt="Morty Logo" className="logo" />
         <div className="header-button__container">
           <div>
-            <a href="https://dmdm420i.com" target="_blank" rel="noreferrer">
-              <HouseSolid width="18" height="18" className="social-svg__link" />
-              <span>Home</span>
-            </a>
+             <span>Home</span>
 
             <a
-              href="https://twitter.com/dmdm420ieth"
+              href="https://twitter.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -31,7 +25,7 @@ export function Header() {
               <span>Twitter</span>
             </a>
 
-            <a href="https://t.me/dmdm420i" target="_blank" rel="noreferrer">
+            <a href="https://t.me" target="_blank" rel="noreferrer">
               <Telegram width="18" height="18" className="social-svg__link" />
               <span>Telegram</span>
             </a>
